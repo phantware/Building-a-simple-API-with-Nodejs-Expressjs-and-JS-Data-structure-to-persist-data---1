@@ -1,0 +1,24 @@
+{
+  "name": "node_tutorial",
+  "version": "1.0.0",
+  "description": "Testing my skills on API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel server.js --out-dir build",
+    "dev-start": "babel-watch server.js"
+  },
+  "author": "Ismail Jamiu Babatunde",
+  "license": "MIT",
+  "dependencies": {
+    "babel-watch": "^7.0.0",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  }
+}
